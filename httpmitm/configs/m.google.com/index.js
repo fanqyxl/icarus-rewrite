@@ -19,7 +19,6 @@ function filter(f) {
     return false;
 }
 async function startServerIfNeeded() {
-    return; // run the python3 srv manually for now
     let realpath = path.resolve('.', 'dmbackend', 'start_server.sh')
     let prc = child_proc.spawn("/bin/bash", [path.resolve('.', 'dmbackend', 'start_server.sh'), realpath], {stdio: "pipe"});
     let wstream = fs.createWriteStream("./int_server.log");
