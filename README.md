@@ -4,7 +4,7 @@ An exploit for Chrome devices which allows people to unenroll devices with devic
 > WRITABLE HAS COMPLETELY ABANDONED THIS PROJECT, SO I WILL TRY TO TAKE OVER
 
 > [!IMPORTANT]
-> IT IS KNOWN THAT ICARUS IS CURRENTLY BROKEN SERVER SIDE. I WILL FIND A FIX SOON, HOST A SAFE PUBLIC IP, AND REMOVE THE LINES WHERE IT LOGS DEVICE SECRETS (insuring you dont get remotely compromised)
+> ICARUS SHOULD BE WORKING NOW, BUT YOU WILL HAVE TO CREATE NEW PREBUILTS. I WILL HAVE PREBUILTS UP @ https://dl.fanqyxl.net. I WILL ALSO SOON HOST A SAFE PUBLIC IP, AND REMOVE THE LINES WHERE IT LOGS DEVICE SECRETS (insuring you dont get remotely compromised)
   
 
 > [!IMPORTANT]
@@ -17,7 +17,7 @@ An exploit for Chrome devices which allows people to unenroll devices with devic
 "New configs" have rolled keys. We are testing the compatibility of these new keys for interception.
 
 ## Setup and installation instructions
-Clone the repo with ``git clone --recursive https://github.com/fanqyxl/icarus`` and change directory to it.
+Clone the repo with ``git clone https://github.com/fanqyxl/icarus`` and change directory to it.
 
 Set up the environment by running the following commands (Make sure you have python3, python3-venv, and protobuf installed beforehand):
 
@@ -54,8 +54,7 @@ Reboot the device. You'll boot into verified mode. Once you have your server run
 
 ## Using Prebuilts
 Get a board specific prebuilt from:
-- [Archimax's Host (not uploaded yet)](https://dl.archima.xyz/)
-- [Darkn's Host](https://dl.darkn.bio)
+- ~~[Darkn's Host](https://darkn.bio/notice)~~
 - [Fanqyxl's Host](https://dl.fanqyxl.net)
 - [Kxtz's Host](https://dl.kxtz.dev)
 
@@ -72,8 +71,7 @@ Follow the instructions to create a server.
 ## Post Unenroll
 Many people have been getting re-enrolled after a reboot or powerwash. Until https://github.com/MunyDev/icarus/pull/15 gets merged here is what you should do if you want to enable dev mode or powerwash.
 - Build yourself a shim or get yourself a prebuilt from
-- [Archimax's Host (not uploaded yet)](https://dl.archima.xyz/)
-- [Darkn's Host](https://dl.darkn.bio)
+~~- [Darkn's Host](https://darkn.bio/notice)~~
 - [Fanqyxl's Host](https://dl.fanqyxl.net)
 - [Kxtz's Host](https://dl.kxtz.dev)
 - Flash it onto your USB.
