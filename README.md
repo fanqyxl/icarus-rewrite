@@ -2,6 +2,8 @@
 An exploit for Chrome devices which allows people to unenroll devices with device management interception using a proxy and a custom Certificate Authority.
 <br>
 > WRITABLE HAS COMPLETELY ABANDONED THIS PROJECT, SO I WILL TRY TO TAKE OVER
+> [!IMPORTANT]
+> ALL OLD ICARUS PREBUILTS FROM DARKN ARE NOW USELESS, SINCE THE CERTS HAD EXPIRED 
 
 > [!IMPORTANT]
 > ICARUS SHOULD BE WORKING NOW, BUT YOU WILL HAVE TO CREATE NEW PREBUILTS. I WILL HAVE PREBUILTS UP @ https://dl.fanqyxl.net. I WILL ALSO SOON HOST A SAFE PUBLIC IP, AND REMOVE THE LINES WHERE IT LOGS DEVICE SECRETS (insuring you dont get remotely compromised)
