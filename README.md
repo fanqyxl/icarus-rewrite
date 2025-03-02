@@ -1,7 +1,7 @@
 # ICARUS
 An exploit for Chrome devices which allows people to unenroll devices with device management interception using a proxy and a custom Certificate Authority.
 <br>
-> This repo is a fork of Icarus which will be maintained by me, fanqyxl, and contributors.
+> This repo is a fork of Icarus which will be maintained by fanqxl, kxtz, cosmicdev, and contributors.
 
 ## TODO
 - rewrite server/shim code/other stuff?
