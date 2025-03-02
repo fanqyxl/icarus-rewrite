@@ -1,23 +1,19 @@
 # ICARUS
 An exploit for Chrome devices which allows people to unenroll devices with device management interception using a proxy and a custom Certificate Authority.
 <br>
-> WRITABLE HAS COMPLETELY ABANDONED THIS PROJECT, SO I WILL TRY TO TAKE OVER
+> This repo is a fork of Icarus which will be maintained by me, fanqyxl, and contributors.
 
-> [!IMPORTANT]
-> ALL OLD ICARUS PREBUILTS FROM DARKN ARE NOW USELESS, SINCE THE CERTS HAD EXPIRED 
-
-> [!IMPORTANT]
-> ICARUS SHOULD BE WORKING NOW, BUT YOU WILL HAVE TO CREATE NEW PREBUILTS. I WILL HAVE PREBUILTS UP @ https://dl.fanqyxl.net. I WILL ALSO SOON HOST A SAFE PUBLIC IP, AND REMOVE THE LINES WHERE IT LOGS DEVICE SECRETS (insuring you dont get remotely compromised)
+## TODO
+- rewrite server/shim code/other stuff?
+- roll keys
+- remove server logging / change it to minimal logging (device type & version)
   
 
 > [!IMPORTANT]
 > DO NOT USE ANY PUBLIC IP ADDRESSES FOR ICARUS AS A PROXY, YOU WILL RISK YOUR DATA and YOU WILL BE REMOTELY COMPROMISED.<br><br>
 > ANYTHING GOOGLE CAN REMOTELY PERFORM ON YOUR DEVICE, ICARUS CAN BE USED TO DO. AN EXAMPLE OF THIS IS INSTALL EXTENSIONS, SPY, USE YOUR CAMERA, REMOTE INTO YOUR DEVICE, GET YOUR PASSWORDS, AND MORE.<br><br>
-> ONLY SELF HOST ICARUS, NEVER USE A PUBLIC SERVER!
-> - WRITABLE
-
-## New configs?
-"New configs" have rolled keys. We are testing the compatibility of these new keys for interception.
+> ONLY SELF HOST ICARUS, NEVER USE A PUBLIC SERVER! <br><br>
+> \- writable / profile_encryption / unretained
 
 ## Setup and installation instructions
 Clone the repo with ``git clone https://github.com/fanqyxl/icarus`` and change directory to it.
@@ -105,3 +101,5 @@ Many people have been getting re-enrolled after a reboot or powerwash. Until htt
 - [Archimax](https://github.com/EnterTheVoid-x86) - Cleaning up get_original_data.sh and inshim.sh + README changes
 - [r58Playz](https://github.com/r58Playz) - General bash script improvements
 - [Akane](https://github.com/genericness) - Help with SSL, general advice, and README changes
+- [fanqyxl](https://github.com/fanqyxl) - new maintainer
+- [kxtzownsu](https://github.com/kxtzownsu) - README rewrite + rolled keys
